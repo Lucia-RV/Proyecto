@@ -5,55 +5,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Main4Activity">
+    tools:context=".Main6Activity">
 
     <TextView
-        android:id="@+id/textView32"
+        android:id="@+id/textView43"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ID_Contrato" />
+        android:text="TextView" />
 
     <TextView
-        android:id="@+id/textView33"
+        android:id="@+id/textView52"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tipo_Contrato" />
+        android:text="TextView" />
 
     <TextView
-        android:id="@+id/textView34"
+        android:id="@+id/textView53"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ClaveE" />
+        android:text="TextView" />
 
     <TextView
-        android:id="@+id/textView35"
+        android:id="@+id/textView54"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nombre_Plaza" />
+        android:text="TextView" />
 
     <TextView
-        android:id="@+id/textView36"
+        android:id="@+id/textView55"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Salario" />
+        android:text="TextView" />
 
     <TextView
-        android:id="@+id/textView37"
+        android:id="@+id/textView56"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fecha_Inicio" />
+        android:text="TextView" />
 
     <TextView
-        android:id="@+id/textView38"
+        android:id="@+id/textView57"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fecha_Termino" />
-
-    <TextView
-        android:id="@+id/textView39"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Periodo_Pago" />
+        android:text="TextView" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -61,39 +55,33 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button16"
+            android:id="@+id/button26"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="NUEVO" />
+            android:text="Button" />
 
         <Button
-            android:id="@+id/button17"
+            android:id="@+id/button27"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="GUARDAR" />
+            android:text="Button" />
 
         <Button
-            android:id="@+id/button18"
+            android:id="@+id/button28"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ACTUALIZAR" />
+            android:text="Button" />
 
         <Button
-            android:id="@+id/button19"
+            android:id="@+id/button29"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="BUSCAR" />
+            android:text="Button" />
 
         <Button
-            android:id="@+id/button20"
+            android:id="@+id/button30"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ELIMINAR" />
+            android:text="Button" />
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView41"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
 </LinearLayout>
