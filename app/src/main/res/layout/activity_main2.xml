@@ -8,35 +8,110 @@
     android:background="#205469"
     tools:context=".Main2Activity">
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ID_Plaza" />
+        android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Nombre_Plaza" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Id.Plaza" />
 
-    <TextView
-        android:id="@+id/textView24"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Departamento" />
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView25"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Salario" />
+        android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/textView26"
-        android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NombrePlaza" />
+
+        <EditText
+            android:id="@+id/editText33"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ID_Estructura" />
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Departamento" />
+
+        <EditText
+            android:id="@+id/editText34"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Salario" />
+
+        <EditText
+            android:id="@+id/editText35"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Id.Estructura" />
+
+        <EditText
+            android:id="@+id/editText36"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -72,5 +147,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Eliminar" />
+
+        <Button
+            android:id="@+id/btnRegresar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGRESAR" />
     </LinearLayout>
 </LinearLayout>

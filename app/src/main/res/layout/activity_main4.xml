@@ -8,53 +8,194 @@
     android:background="#205469"
     tools:context=".Main4Activity">
 
-    <TextView
-        android:id="@+id/textView32"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ID_Contrato" />
+        android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/textView33"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tipo_Contrato" />
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="IdContrato" />
 
-    <TextView
-        android:id="@+id/textView34"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ClaveE" />
+        <EditText
+            android:id="@+id/editText49"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView35"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nombre_Plaza" />
+        android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/textView36"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Salario" />
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TipoContrato" />
 
-    <TextView
-        android:id="@+id/textView37"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Fecha_Inicio" />
+        <EditText
+            android:id="@+id/editText50"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView38"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fecha_Termino" />
+        android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/textView39"
-        android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ClaveE" />
+
+        <EditText
+            android:id="@+id/editText51"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Periodo_Pago" />
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nombre_plaza" />
+
+        <EditText
+            android:id="@+id/editText52"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Puesto" />
+
+        <EditText
+            android:id="@+id/editText53"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Salario" />
+
+        <EditText
+            android:id="@+id/editText54"
+            android:layout_width="376dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fecha_Inicio" />
+
+        <EditText
+            android:id="@+id/editText55"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fecga_Termino" />
+
+        <EditText
+            android:id="@+id/editText56"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Periodo_Pago" />
+
+        <EditText
+            android:id="@+id/editText57"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -90,11 +231,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ELIMINAR" />
+
+        <Button
+            android:id="@+id/btnRegresar4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGRESAR" />
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView41"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
 </LinearLayout>
