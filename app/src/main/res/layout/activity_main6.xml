@@ -161,34 +161,34 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button26"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="NUEVO" />
-
-        <Button
-            android:id="@+id/button27"
+            android:id="@+id/btnGR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="GUARDAR" />
 
         <Button
-            android:id="@+id/button28"
+            android:id="@+id/btnAR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ACTUALIZAR" />
 
         <Button
-            android:id="@+id/button29"
+            android:id="@+id/btnBR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="BUSCAR" />
 
         <Button
-            android:id="@+id/button30"
+            android:id="@+id/btnER"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ELIMINAR" />
+
+        <Button
+            android:id="@+id/btnCR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONSULTAR" />
 
         <Button
             android:id="@+id/btnRegresar6"

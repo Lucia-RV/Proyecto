@@ -119,34 +119,34 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnGP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nuevo" />
+            android:text="GUARDAR" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/btnAP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Guardar" />
+            android:text="ACTUALIZAR" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/btnBP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Actualizar" />
+            android:text="BUSCAR" />
 
         <Button
-            android:id="@+id/button9"
+            android:id="@+id/btnEP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Buscar" />
+            android:text="ELIMINAR" />
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/btnCP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Eliminar" />
+            android:text="CONSULTAR" />
 
         <Button
             android:id="@+id/btnRegresar2"

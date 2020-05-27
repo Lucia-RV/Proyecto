@@ -15,6 +15,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         regresarMenu = (Button) findViewById(R.id.btnregresar);
+
         regresarMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

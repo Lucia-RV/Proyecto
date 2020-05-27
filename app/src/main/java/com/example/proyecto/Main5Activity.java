@@ -15,6 +15,7 @@ public class Main5Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main5);
         regresarmn = (Button) findViewById(R.id.btnRegresar5);
+
         regresarmn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -15,6 +15,7 @@ public class Main6Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main6);
         regresarmen = (Button) findViewById(R.id.btnRegresar6);
+
         regresarmen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

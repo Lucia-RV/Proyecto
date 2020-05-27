@@ -119,27 +119,6 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView37"
-            android:layout_width="112dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Salario" />
-
-        <EditText
-            android:id="@+id/editText54"
-            android:layout_width="376dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
             android:id="@+id/textView38"
             android:layout_width="112dp"
             android:layout_height="wrap_content"
@@ -203,34 +182,34 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button16"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="NUEVO" />
-
-        <Button
-            android:id="@+id/button17"
+            android:id="@+id/btnGCON"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="GUARDAR" />
 
         <Button
-            android:id="@+id/button18"
+            android:id="@+id/btnACON"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ACTUALIZAR" />
 
         <Button
-            android:id="@+id/button19"
+            android:id="@+id/btnBCON"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="BUSCAR" />
 
         <Button
-            android:id="@+id/button20"
+            android:id="@+id/btnECON"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ELIMINAR" />
+
+        <Button
+            android:id="@+id/btnCCON"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONSULTAR" />
 
         <Button
             android:id="@+id/btnRegresar4"

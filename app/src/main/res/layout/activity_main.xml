@@ -36,7 +36,7 @@
 
         <TextView
             android:id="@+id/textView22"
-            android:layout_width="188dp"
+            android:layout_width="95dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Nombre" />
@@ -455,34 +455,34 @@
         android:orientation="vertical" >
 
         <Button
-            android:id="@+id/button33"
+            android:id="@+id/btnGE"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="NUEVO" />
-
-        <Button
-            android:id="@+id/button34"
-            android:layout_width="476dp"
             android:layout_height="wrap_content"
             android:text="GUARDAR" />
 
         <Button
-            android:id="@+id/button35"
-            android:layout_width="match_parent"
+            android:id="@+id/btnAE"
+            android:layout_width="476dp"
             android:layout_height="wrap_content"
             android:text="ACTUALIZAR" />
 
         <Button
-            android:id="@+id/button36"
+            android:id="@+id/btnBE"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="BUSCAR" />
 
         <Button
-            android:id="@+id/button37"
+            android:id="@+id/btnEE"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ELIMINAR" />
+
+        <Button
+            android:id="@+id/btnCE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONSULTAR" />
 
         <Button
             android:id="@+id/btnregresar"
