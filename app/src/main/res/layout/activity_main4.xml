@@ -21,7 +21,7 @@
             android:text="IdContrato" />
 
         <EditText
-            android:id="@+id/editText49"
+            android:id="@+id/txtcontrato"
             android:layout_width="370dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -42,7 +42,7 @@
             android:text="TipoContrato" />
 
         <EditText
-            android:id="@+id/editText50"
+            android:id="@+id/txttipocontrato"
             android:layout_width="373dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -63,7 +63,7 @@
             android:text="ClaveE" />
 
         <EditText
-            android:id="@+id/editText51"
+            android:id="@+id/txtclaveec"
             android:layout_width="374dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -84,7 +84,7 @@
             android:text="Nombre_plaza" />
 
         <EditText
-            android:id="@+id/editText52"
+            android:id="@+id/txtnombreplazac"
             android:layout_width="373dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -105,7 +105,7 @@
             android:text="Puesto" />
 
         <EditText
-            android:id="@+id/editText53"
+            android:id="@+id/txtpuestoc"
             android:layout_width="378dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -126,7 +126,7 @@
             android:text="Fecha_Inicio" />
 
         <EditText
-            android:id="@+id/editText55"
+            android:id="@+id/txtfic"
             android:layout_width="373dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -147,7 +147,7 @@
             android:text="Fecga_Termino" />
 
         <EditText
-            android:id="@+id/editText56"
+            android:id="@+id/txtftc"
             android:layout_width="378dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -168,7 +168,7 @@
             android:text="Periodo_Pago" />
 
         <EditText
-            android:id="@+id/editText57"
+            android:id="@+id/txtperiodopagoc"
             android:layout_width="373dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"

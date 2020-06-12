@@ -5,24 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#205469"
-    tools:context=".Main6Activity">
-
+    tools:context=".Edit_Estructura_Salarial">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView31"
-            android:layout_width="125dp"
+            android:id="@+id/textView26"
+            android:layout_width="117dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Id_Resibo" />
+            android:text="IdEstructura" />
 
         <EditText
-            android:id="@+id/noresivo"
-            android:layout_width="285dp"
+            android:id="@+id/txtidestructura"
+            android:layout_width="293dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
@@ -35,15 +33,15 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView41"
-            android:layout_width="125dp"
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="ClaveE" />
+            android:text="NombreEstructura" />
 
         <EditText
-            android:id="@+id/claveer"
-            android:layout_width="286dp"
+            android:id="@+id/txtnombreestructura"
+            android:layout_width="293dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
@@ -56,15 +54,15 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView43"
-            android:layout_width="125dp"
+            android:id="@+id/textView28"
+            android:layout_width="117dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="IdContrato" />
+            android:text="CantidadHoras" />
 
         <EditText
-            android:id="@+id/contrator"
-            android:layout_width="286dp"
+            android:id="@+id/txtcantidadhoras"
+            android:layout_width="294dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
@@ -77,15 +75,15 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView52"
-            android:layout_width="125dp"
+            android:id="@+id/textView29"
+            android:layout_width="117dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="IdPlaza" />
+            android:text="CantidadDias" />
 
         <EditText
-            android:id="@+id/plazar"
-            android:layout_width="285dp"
+            android:id="@+id/txtcantidaddias"
+            android:layout_width="293dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
@@ -98,36 +96,15 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView54"
-            android:layout_width="125dp"
+            android:id="@+id/textView30"
+            android:layout_width="117dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="PeriodoRecibo" />
+            android:text="DiasAguinaldo" />
 
         <EditText
-            android:id="@+id/periodor"
-            android:layout_width="285dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textView55"
-            android:layout_width="125dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Tipo_de_Pago" />
-
-        <EditText
-            android:id="@+id/tipor"
-            android:layout_width="286dp"
+            android:id="@+id/txtdiasaguinaldo"
+            android:layout_width="294dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
@@ -140,37 +117,31 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/btnGR"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="GUARDAR" />
-
-        <Button
-            android:id="@+id/btnAR"
+            android:id="@+id/btnAES"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ACTUALIZAR" />
 
         <Button
-            android:id="@+id/btnBR"
+            android:id="@+id/btnBES"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="BUSCAR" />
 
         <Button
-            android:id="@+id/btnER"
+            android:id="@+id/btnEES"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ELIMINAR" />
 
         <Button
-            android:id="@+id/btnCR"
+            android:id="@+id/btnCES"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="CONSULTAR" />
 
         <Button
-            android:id="@+id/btnRegresar6"
+            android:id="@+id/btnRegresar3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="REGRESAR" />

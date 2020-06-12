@@ -7,6 +7,7 @@
     tools:context=".ConsultaEsctructura">
 
     <ListView
+        android:id="@+id/listviewEstructura"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

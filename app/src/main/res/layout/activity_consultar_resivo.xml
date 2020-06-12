@@ -7,6 +7,7 @@
     tools:context=".ConsultarResivo">
 
     <ListView
+        android:id="@+id/listviewResivo"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

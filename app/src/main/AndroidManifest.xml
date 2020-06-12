@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.proyecto">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,26 +11,43 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ConsultarResivo"></activity>
+        <activity android:name=".EditResivo"></activity>
+        <activity android:name=".ResivoNomina" />
+        <activity android:name=".BuscarResivo" />
+        <activity android:name=".EditNomina" />
+        <activity android:name=".Nomina" />
+        <activity android:name=".BuscarNomina" />
+        <activity android:name=".EditContrato" />
+        <activity android:name=".EditPlaza" />
+        <activity android:name=".EditEmpleado" />
+        <activity android:name=".Contrato" />
+        <activity android:name=".BuscarContrato" />
+        <activity android:name=".Plaza" />
+        <activity android:name=".BuscarPlaza" />
+        <activity android:name=".Empleado" />
+        <activity android:name=".BuscarEmpleado" />
+        <activity android:name=".BuscarrEstructura" />
+        <activity android:name=".Edit_Estructura_Salarial" />
+        <activity android:name=".ConsultarResivo" />
         <activity android:name=".ConsultarNomina" />
         <activity android:name=".ConsultaContrato" />
         <activity android:name=".ConsultaPlaza" />
         <activity android:name=".ConsultaEsctructura" />
         <activity android:name=".ConsultaEmpleado" />
         <activity android:name=".SConexion" />
-        <activity android:name=".MENU" />
-        <activity android:name=".Main6Activity" />
-        <activity android:name=".Main5Activity" />
-        <activity android:name=".Main4Activity" />
-        <activity android:name=".Main3Activity" />
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MENU">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Main6Activity" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

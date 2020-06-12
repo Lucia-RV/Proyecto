@@ -3,111 +3,53 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#205469"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-
-    tools:context=".Main3Activity">
+    tools:context=".BuscarResivo">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView26"
-            android:layout_width="117dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="IdEstructura" />
-
-        <EditText
-            android:id="@+id/txtidestructura"
-            android:layout_width="293dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textView27"
+            android:id="@+id/textView45"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="NombreEstructura" />
+            android:text="buscador" />
 
         <EditText
-            android:id="@+id/txtnombreestructura"
-            android:layout_width="293dp"
+            android:id="@+id/buscar"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnbuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView28"
-            android:layout_width="117dp"
+            android:id="@+id/txtclaveer"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="CantidadHoras" />
+            android:text="ClaveE" />
 
         <EditText
-            android:id="@+id/txtcantidadhoras"
-            android:layout_width="294dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textView29"
-            android:layout_width="117dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="CantidadDias" />
-
-        <EditText
-            android:id="@+id/txtcantidaddias"
-            android:layout_width="293dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textView30"
-            android:layout_width="117dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="DiasAguinaldo" />
-
-        <EditText
-            android:id="@+id/txtdiasaguinaldo"
-            android:layout_width="294dp"
+            android:id="@+id/claveer"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
@@ -117,30 +59,84 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btnGES"
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/textView110"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="GUARDAR" />
+            android:layout_weight="1"
+            android:text="NoContrato" />
 
-        <Button
-            android:id="@+id/btnBES"
-            android:layout_width="match_parent"
+        <EditText
+            android:id="@+id/txtnocontrator"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="BUSCAR" />
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
 
-        <Button
-            android:id="@+id/btnCES"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="CONSULTAR" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btnRegresar3"
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="REGRESAR" />
+            android:layout_weight="1"
+            android:text="NoPlaza" />
+
+        <EditText
+            android:id="@+id/txtnoplazar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView112"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PeriodoResivo" />
+
+        <EditText
+            android:id="@+id/txtppr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView113"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TipoPago" />
+
+        <EditText
+            android:id="@+id/txttpr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
     </LinearLayout>
 </LinearLayout>

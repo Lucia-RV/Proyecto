@@ -7,6 +7,7 @@
     tools:context=".ConsultarNomina">
 
     <ListView
+        android:id="@+id/listviewNomina"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

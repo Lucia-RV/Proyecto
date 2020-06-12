@@ -21,7 +21,7 @@
             android:text="Id.Plaza" />
 
         <EditText
-            android:id="@+id/editText11"
+            android:id="@+id/txtplaza"
             android:layout_width="310dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -42,7 +42,7 @@
             android:text="NombrePlaza" />
 
         <EditText
-            android:id="@+id/editText33"
+            android:id="@+id/txtnomplaza"
             android:layout_width="310dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -63,7 +63,7 @@
             android:text="Departamento" />
 
         <EditText
-            android:id="@+id/editText34"
+            android:id="@+id/txtdepartamentop"
             android:layout_width="309dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -84,7 +84,7 @@
             android:text="Salario" />
 
         <EditText
-            android:id="@+id/editText35"
+            android:id="@+id/txtsalariop"
             android:layout_width="309dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -105,7 +105,7 @@
             android:text="Id.Estructura" />
 
         <EditText
-            android:id="@+id/editText36"
+            android:id="@+id/txtestructurap"
             android:layout_width="313dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
